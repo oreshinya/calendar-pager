@@ -1,5 +1,8 @@
 # Calendar Pager
 
+[![npm version](https://badge.fury.io/js/calendar-pager.svg)](https://badge.fury.io/js/calendar-pager)
+[![Build Status](https://travis-ci.org/oreshinya/calendar-pager.svg?branch=master)](https://travis-ci.org/oreshinya/calendar-pager)
+
 Utility for getting calendar dates with [moment](https://github.com/moment/moment).
 
 ## Dependencies
@@ -23,7 +26,7 @@ const {
   current, // start of month
   range,   // moment-range
   prev,    // start of prev month
-  next     // end of next month
+  next     // start of next month
 } = calendar();
 
 // Get calendar dates of prev month.
